@@ -174,6 +174,6 @@ while running:
     omx,omy=mx,my
     myClock.tick(600)
     display.flip()
-    display.set_caption(str(myClock.get_fps()))
+    display.set_caption("Spongebob Paint Project - Ario Barin Ostovary")
 
 quit()
