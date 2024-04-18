@@ -25,7 +25,7 @@ Features:
         Ellipse - (hold shift for circle) - Fill/No Fill
         Eye Dropper
         Fireworks
-        Airbrush
+        Airbrush (beautiful)
         Paint Bucket (fill region with color)
         Fill Screen (fill screen with color)
         Stamp (with size slider while the stamp tool is selected) (15 stamps)

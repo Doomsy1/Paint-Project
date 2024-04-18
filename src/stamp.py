@@ -32,7 +32,7 @@ def draw_stamp_buttons(screen, stamp_list, button_data):
     draw.rect(screen, (0,0,0), (next_preview.x, next_preview.y, next_preview.w, next_preview.h))
     
     # draw the images of the next and previous stamps
-    fit_img_to_rect(screen, stamp_list[0], previous_preview)
+    fit_img_to_rect(screen, stamp_list[-1], previous_preview)
     fit_img_to_rect(screen, stamp_list[1], next_preview)
 
     # draw the outline of the buttons
