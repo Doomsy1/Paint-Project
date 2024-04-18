@@ -1,3 +1,8 @@
+from os import chdir, getcwd
+# set the working directory to the main folder if it is not already
+if "src" in getcwd():
+    chdir("..")
+
 from pygame import *
 from background import background_manager, initialize_background
 from buttons import button_manager
