@@ -1,7 +1,7 @@
 from os import listdir
 from pygame import *
 from config import *
-from utils import scale_img_to_rect
+from utils import fit_img_to_rect
 
 previous_preview = Rect(585, 690, 100, 100)
 next_preview = Rect(690, 690, 100, 100)
@@ -32,8 +32,8 @@ def draw_stamp_buttons(screen, stamp_list, button_data):
     draw.rect(screen, (0,0,0), (next_preview.x, next_preview.y, next_preview.w, next_preview.h))
     
     # draw the images of the next and previous stamps
-    scale_img_to_rect(screen, stamp_list[0], previous_preview)
-    scale_img_to_rect(screen, stamp_list[1], next_preview)
+    fit_img_to_rect(screen, stamp_list[0], previous_preview)
+    fit_img_to_rect(screen, stamp_list[1], next_preview)
 
     # draw the outline of the buttons
     draw.rect(screen, UNSELECED_COLOUR, next_preview, 2)
