@@ -1,8 +1,10 @@
+# src/buttons.py
+
 from os import listdir
 from tkinter import filedialog
 from pygame import *
-from config import *
-from utils import fit_img_to_rect, write_centered_text
+from src.config import *
+from src.utils import fit_img_to_rect, write_centered_text
 
 
 init()

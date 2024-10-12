@@ -1,6 +1,8 @@
+# src/sliders.py
+
 from pygame import *
-from utils import *
-from config import *
+from src.utils import *
+from src.config import *
 
 # create the slider rects
 red_slider = Rect(10, 675, 400, 35)

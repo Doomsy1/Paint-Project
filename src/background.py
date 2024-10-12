@@ -1,7 +1,9 @@
+# src/background.py
+
 from os import listdir
 from pygame import *
-from config import *
-from utils import fit_img_to_rect, scale_img_to_rect
+from src.config import *
+from src.utils import fit_img_to_rect, scale_img_to_rect
 
 # create the forward and backward buttons
 forward_rect = Rect(875, 560, 195, 110)

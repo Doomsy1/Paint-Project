@@ -1,6 +1,8 @@
+# src/selection.py 
+
 # Selection tool
 from pygame import *
-from utils import draw_dotted_rect
+from src.utils import draw_dotted_rect
 
 selected_colour = (0, 255, 0)
 unselected_colour = (255, 0, 0)

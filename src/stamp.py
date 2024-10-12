@@ -1,7 +1,9 @@
+# src/stamp.py
+
 from os import listdir
 from pygame import *
-from config import *
-from utils import fit_img_to_rect
+from src.config import *
+from src.utils import fit_img_to_rect
 
 previous_preview = Rect(585, 690, 100, 100)
 next_preview = Rect(690, 690, 100, 100)

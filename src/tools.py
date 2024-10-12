@@ -1,10 +1,12 @@
+# src/tools.py
+
 from random import randint
 from pygame import *
-from config import *
-from selection import selection_tool
+from src.config import *
+from src.selection import selection_tool
 from math import ceil, hypot
 from collections import deque
-from utils import draw_rounded_line, fit_img_to_rect, write_centered_text
+from src.utils import draw_rounded_line, fit_img_to_rect, write_centered_text
 
 # tools dictionary
 # description: what does the tool do \n how to use it

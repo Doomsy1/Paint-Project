@@ -1,6 +1,8 @@
+# src/undo_redo.py
+
 from pygame import *
-from config import *
-from utils import fit_img_to_rect
+from src.config import *
+from src.utils import fit_img_to_rect
 
 undo_rect = Rect(10, 10, 40, 40)
 redo_rect = Rect(60, 10, 40, 40)
